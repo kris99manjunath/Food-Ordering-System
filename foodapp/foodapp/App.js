@@ -5,13 +5,7 @@ import MainScreen from './components/Main/MainNavigator';
 import firebase from 'firebase';
 
 var firebaseConfig = {
-  apiKey: "AIzaSyAq-i8QwNSX-KQ7yRcgW6aVZ2qjqPwLGEo",
-  authDomain: "foodapp-8cb4f.firebaseapp.com",
-  databaseURL: "https://foodapp-8cb4f.firebaseio.com",
-  projectId: "foodapp-8cb4f",
-  storageBucket: "foodapp-8cb4f.appspot.com",
-  messagingSenderId: "990816713230",
-  appId: "1:990816713230:web:0f7973afcfb4ccb70d9a5f"
+  
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
